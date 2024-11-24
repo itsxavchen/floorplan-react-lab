@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,80 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div {
+  border: 1px solid grey;
+  /* margin: 5px; */
+  /* padding: 5px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.floor-plan {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 30%;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  width: 70%;
+}
+
+.oven-sink {
+  flex-direction: row;
+  gap: 16px;
+}
+
+.livingroom-kitchen {
+  flex-direction: row;
+  height: 70%;
+  width: 100%;
+}
+
+.halfbath-bedroom {
+  flex-direction: row;
+  width: 100%;
+  height: 30%;
+}
+
+.livingroom {
+  background-color: rgb(223, 183, 157);
+  width: 60%;
+  height: 100%;
+}
+
+.kitchen-container {
+  height: 100%;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.oven-sink {
+  height: 10%;
+  width: 100%;
+}
+
+.kitchen {
+  height: 90%;
+  width: 100%;
 }
